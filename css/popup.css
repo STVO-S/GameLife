@@ -1,0 +1,60 @@
+.overline{
+  background: rgba(0,0,0,0.3);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.overline.active{
+  visibility: visible;
+}
+
+.btn-cerrar-popup:hover{
+  color: black;
+}
+
+/*Ventana de compra*/
+
+.popup2{
+  width: 85%;
+  max-height: 75%;
+  background: #324047;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  transition: .3s ease all;
+  transform: scale(0.7);
+  opacity: 0;
+  margin-top: 6%;
+}
+
+.popup2 .btn-cerrar-popup{
+  font-size: 16px;
+  line-height: 16px;
+  display: block;
+  text-align: right;
+  color: lightgrey;
+  transition: .3s ease all;
+}
+
+.popup2.active{
+  opacity: 1;
+  transform: scale(1);
+}
+
+.btn-cerrar-popup:hover{
+  color: black;
+}
+
+@media screen and (max-width: 800px){
+  .popup2{
+    max-height: 90%;
+  }
+}

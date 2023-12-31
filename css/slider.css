@@ -1,0 +1,393 @@
+#index{
+	width: 100%;
+	height: 710px;
+	background: url(../logo/Banner-oficial.jpg) no-repeat;
+	background-size: contain;
+}
+
+@media screen and (min-width: 980px){
+	#index{
+		height: 500px;
+	}
+}
+
+@media screen and (max-width: 1250px){
+	#index{
+		height: 450px;
+	}
+}
+
+@media screen and (max-width: 1150px){
+	#index{
+		height: 400px;
+	}
+}
+
+@media screen and (max-width: 979px){
+	#index{
+		height: 360px;
+	}
+}
+
+@media screen and (max-width: 900px){
+	#index{
+		height: 300px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	#index{
+		height: 280px;
+	}
+}
+
+@media screen and (max-width: 735px){
+	#index{
+		height: 260px;
+	}
+}
+
+@media screen and (max-width: 610px){
+	#index{
+		height: 240px;
+	}
+}
+
+@media screen and (max-width: 550px){
+	#index{
+		height: 210px;
+	}
+}
+
+@media screen and (max-width: 450px){
+	#index{
+		height: 170px;
+	}
+}
+
+@media screen and (max-width: 400px){
+	#index{
+		height: 135px;
+	}
+}
+
+@media screen and (max-width: 340px){
+	#index{
+		height: 120px;
+	}
+}
+
+#saga{
+	width: 100%;
+	height: 710px;
+	background: url(../logo/saga3.jpg) no-repeat;
+	background-size: contain;
+}
+
+@media screen and (min-width: 980px){
+	#saga{
+		height: 500px;
+	}
+}
+
+@media screen and (max-width: 1250px){
+	#saga{
+		height: 450px;
+	}
+}
+
+@media screen and (max-width: 1150px){
+	#saga{
+		height: 400px;
+	}
+}
+
+@media screen and (max-width: 979px){
+	#saga{
+		height: 360px;
+	}
+}
+
+@media screen and (max-width: 900px){
+	#saga{
+		height: 300px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	#saga{
+		height: 280px;
+	}
+}
+
+@media screen and (max-width: 735px){
+	#saga{
+		height: 260px;
+	}
+}
+
+@media screen and (max-width: 610px){
+	#saga{
+		height: 240px;
+	}
+}
+
+@media screen and (max-width: 550px){
+	#saga{
+		height: 210px;
+	}
+}
+
+@media screen and (max-width: 450px){
+	#saga{
+		height: 170px;
+	}
+}
+
+@media screen and (max-width: 400px){
+	#saga{
+		height: 135px;
+	}
+}
+
+@media screen and (max-width: 340px){
+	#saga{
+		height: 120px;
+	}
+}
+
+
+#armas{
+	width: 100%;
+	height: 710px;
+	background: url(../logo/armas3.jpg) no-repeat;
+	background-size: contain;
+}
+
+@media screen and (min-width: 980px){
+	#armas{
+		height: 500px;
+	}
+}
+
+@media screen and (max-width: 1250px){
+	#armas{
+		height: 450px;
+	}
+}
+
+@media screen and (max-width: 1150px){
+	#armas{
+		height: 400px;
+	}
+}
+
+@media screen and (max-width: 979px){
+	#armas{
+		height: 360px;
+	}
+}
+
+@media screen and (max-width: 900px){
+	#armas{
+		height: 300px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	#armas{
+		height: 280px;
+	}
+}
+
+@media screen and (max-width: 735px){
+	#armas{
+		height: 260px;
+	}
+}
+
+@media screen and (max-width: 610px){
+	#armas{
+		height: 240px;
+	}
+}
+
+@media screen and (max-width: 550px){
+	#armas{
+		height: 210px;
+	}
+}
+
+@media screen and (max-width: 450px){
+	#armas{
+		height: 170px;
+	}
+}
+
+@media screen and (max-width: 400px){
+	#armas{
+		height: 135px;
+	}
+}
+
+@media screen and (max-width: 340px){
+	#armas{
+		height: 120px;
+	}
+}
+
+#deportes{
+	width: 100%;
+	height: 710px;
+	background: url(../logo/deportes2.jpg) no-repeat;
+	background-size: contain;
+}
+
+@media screen and (min-width: 980px){
+	#deportes{
+		height: 500px;
+	}
+}
+
+@media screen and (max-width: 1250px){
+	#deportes{
+		height: 450px;
+	}
+}
+
+@media screen and (max-width: 1150px){
+	#deportes{
+		height: 400px;
+	}
+}
+
+@media screen and (max-width: 979px){
+	#deportes{
+		height: 360px;
+	}
+}
+
+@media screen and (max-width: 900px){
+	#deportes{
+		height: 300px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	#deportes{
+		height: 280px;
+	}
+}
+
+@media screen and (max-width: 735px){
+	#deportes{
+		height: 260px;
+	}
+}
+
+@media screen and (max-width: 610px){
+	#deportes{
+		height: 240px;
+	}
+}
+
+@media screen and (max-width: 550px){
+	#deportes{
+		height: 210px;
+	}
+}
+
+@media screen and (max-width: 450px){
+	#deportes{
+		height: 170px;
+	}
+}
+
+@media screen and (max-width: 400px){
+	#deportes{
+		height: 135px;
+	}
+}
+
+@media screen and (max-width: 340px){
+	#deportes{
+		height: 120px;
+	}
+}
+
+#clasicos{
+	width: 100%;
+	height: 710px;
+	background: url(../logo/clasicos1.jpg) no-repeat;
+	background-size: contain;
+}
+
+@media screen and (min-width: 980px){
+	#clasicos{
+		height: 500px;
+	}
+}
+
+@media screen and (max-width: 1250px){
+	#clasicos{
+		height: 450px;
+	}
+}
+
+@media screen and (max-width: 1150px){
+	#clasicos{
+		height: 400px;
+	}
+}
+
+@media screen and (max-width: 979px){
+	#clasicos{
+		height: 360px;
+	}
+}
+
+@media screen and (max-width: 900px){
+	#clasicos{
+		height: 300px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	#clasicos{
+		height: 280px;
+	}
+}
+
+@media screen and (max-width: 735px){
+	#clasicos{
+		height: 260px;
+	}
+}
+
+@media screen and (max-width: 610px){
+	#clasicos{
+		height: 240px;
+	}
+}
+
+@media screen and (max-width: 550px){
+	#clasicos{
+		height: 210px;
+	}
+}
+
+@media screen and (max-width: 450px){
+	#clasicos{
+		height: 170px;
+	}
+}
+
+@media screen and (max-width: 400px){
+	#clasicos{
+		height: 135px;
+	}
+}
+
+@media screen and (max-width: 340px){
+	#clasicos{
+		height: 120px;clasicos

@@ -1,0 +1,118 @@
+.container-venta{
+	max-width: 85%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-flow: row wrap;
+	flex: 50%;
+}
+
+.container-venta h1, h3, h4{
+	text-align: center;
+	font-size: 35px;
+	color: #EDECE8;
+}
+
+.popup2 h1, h3, h4{
+	text-align: center;
+	color: #EDECE8;
+}
+
+.poster{
+	max-width: 600px;
+	max-height: 400px;
+	outline: none;
+	float: left;
+}
+
+.descrip{
+	flex: 50%;
+	max-width: 100%;
+	padding: 10px;
+	max-height: 400px;
+	float: left;
+	margin-top: 2%;
+}
+
+.descrip p{
+	text-align: justify;
+	padding: 10px;
+	font-size: 20px;
+	margin-top: 3%;
+	color: #EDECE8;
+}
+
+.Precio{
+	font-size: 40px;
+	margin-bottom: 20px;
+	color: #EDECE8;
+}
+
+.Precio ul{
+	margin: 0;
+	padding: 0;
+}
+
+.Precio ul li{
+	padding: 10px 0;
+	list-style: none;
+	color: #EDECE8;
+}
+
+.Precio a{
+	background: #EDECE8;
+	text-decoration: none;
+	color: black;
+	border: 2px solid #e1b12c;
+	display: block;
+	padding: 10px 0;
+	margin: 10px 0;
+	border-radius: 40px;
+	text-transform: uppercase;
+	font-size: 14px;
+	transition: 0.5s linear;
+	margin-top: 5%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.Precio a:hover{
+	background: black;
+	color: white;
+}
+
+.descrip p{
+	text-align: justify;
+	font-size: 20px;
+	margin-top: 3%;
+	color: #EDECE8;
+}
+
+@media screen and (max-width: 600px){
+  .poster{
+  	max-width: 250px;
+    height: 350px;
+  }
+
+  .Precio{
+	font-size: 26px;
+  }
+
+}
+
+@media screen and (max-width: 800px){
+  .poster{
+  	max-width: 450px;
+    height: 250px;
+  }
+
+  .descrip p{
+  	font-size: 18px;
+  }
+
+  .Precio{
+	font-size: 18px;
+  }
+
+}

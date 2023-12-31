@@ -1,0 +1,369 @@
+.overline{
+  background: rgba(0,0,0,0.3);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.overline.active{
+  visibility: visible;
+}
+
+.login{
+	width: 40%;
+	height: 550px;
+	background: url(../img/Iniciar.jpg)no-repeat center;
+	background-size: cover;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	border-radius: 20px;
+	padding: 20px;
+	text-align: center;
+	transition: .3s ease all;
+	transform: scale(0.7);
+	opacity: 0;
+	margin: auto;
+	font-family: "Montserrat",sans-serif;
+}
+
+.login .btn-cerrar-popup{
+	font-size: 16px;
+	line-height: 16px;
+	display: block;
+	text-align: right;
+	color: grey;
+	transition: .3s ease all;
+}
+
+.btn-cerrar-popup:hover{
+	color: white;
+}
+
+.login h1{
+	font-size: 40px;
+	margin-top: 100px;
+	margin-bottom: 60px;
+	color: white;
+}
+
+.login.active{
+	opacity: 1;
+	transform: scale(1);
+}
+
+.login.active h1{
+	animation: Entrada 2s ease .5 forwards; 
+}
+.login.active input{
+	animation: Salida 2s ease .5 forwards; 
+}
+
+@keyframes Entrada{
+  from{
+    transform: translateY(-25px);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes Salida{
+  from{
+    transform: translateY(25px);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.tbox{
+	width: 260px;
+	height: 40px;
+	background: #f1f1f1b3;
+	border-radius: 10px;
+	margin: 10px auto;
+}
+
+.tbox input{
+	background: none;
+	border: none;
+	outline: none;
+	text-align: center;
+	width: 260px;
+	line-height: 37px;
+	font-family: "Montserrat",sans-serif;
+	font-size: 14px;
+}
+
+.btn{
+	width: 260px;
+	height: 40px;
+	background: #0071d2;
+	border-radius: 10px;
+	margin: 14px auto;
+	display: block;
+	font-family: "Montserrat",sans-serif;
+	font-size: 16px;
+	border: none;
+	color: white;
+	cursor: pointer;
+}
+
+.btn:hover{
+	background: #0089ff;
+	transition: 0.4s all;
+}
+
+.b1{
+	display: block;
+	width: 260px;
+	padding: 10px 0;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	margin: auto;
+}
+
+.b2{
+	position: absolute;
+	bottom: 80px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 260px;
+	padding: 10px 0;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+
+.b1:hover{
+	background: white;
+	color: black;
+	transition: 0.4s all;
+}
+
+.b2:hover{
+	background: white;
+	color: black;
+	transition: 0.4s all;
+}
+
+.login.active .b1{
+	animation: hola 2s ease .5 forwards; 
+}
+
+@keyframes hola{
+  from{
+    transform: translateY(-25px);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 200px){
+	.login{
+		width: 80%;
+		height: 500px;
+	}
+
+	.login h1{
+		margin-top: 60px;
+	}
+}
+
+@media screen and (min-width: 768px){
+	.login{
+		width: 60%;
+		height: 550px;
+	}
+
+	.login h1{
+		margin-top: 70px;
+	}
+}
+
+@media screen and (min-width: 920px){
+	.login{
+		width: 40%;
+	}
+}
+
+.Registrate{
+	width: 50%;
+	height: 580px;
+	background: url(../img/registro.jpg)no-repeat center;
+	background-size: cover;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	border-radius: 20px;
+	padding: 20px;
+	text-align: center;
+	transition: .3s ease all;
+	transform: scale(0.7);
+	opacity: 0;
+	margin: auto;
+	font-family: "Montserrat",sans-serif;
+}
+
+.Registrate .btn-cerrar-popup{
+	font-size: 16px;
+	line-height: 16px;
+	display: block;
+	text-align: right;
+	color: lightgrey;
+	transition: .3s ease all;
+}
+
+.btn-cerrar-popup:hover{
+	color: white;
+}
+
+.Registrate h1{
+	font-size: 40px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+.Registrate.active{
+	opacity: 1;
+	transform: scale(1);
+}
+
+.Registrate.active h1{
+	animation: Entrada 2s ease .5 forwards; 
+}
+.Registrate.active input{
+	animation: Salida 2s ease .5 forwards; 
+}
+
+@keyframes Entrada{
+  from{
+    transform: translateY(-25px);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes Salida{
+  from{
+    transform: translateY(25px);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.sbox{
+	width: 280px;
+	height: 40px;
+	background: rgba(255,255,255,0.9);
+	border-radius: 10px;
+	margin: 10px auto;
+}
+
+.sbox input{
+	background: none;
+	border: none;
+	outline: none;
+	text-align: center;
+	width: 280px;
+	line-height: 37px;
+	font-family: "Montserrat",sans-serif;
+	font-size: 14px;
+}
+
+.s1{
+	display: block;
+	width: 240px;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	margin: auto;
+	background: white;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.s1:hover{
+	background: rgba(255,255,255,0.5);
+}
+
+.s1 i{
+	font-size: 20px;
+	color: #0071d2;
+}
+
+.Registrate.active .s1{
+	animation: Entrada 2s ease .5 forwards;
+}
+.Registrate.active .s1{
+	animation: Salida 2s ease .5 forwards;
+}
+
+@keyframes Entrada{
+  from{
+    transform: translateY(-25px);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes Salida{
+  from{
+    transform: translateY(25px);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 200px){
+	.Registrate{
+		width: 80%;
+		height: 550px;
+	}
+
+	.Registrate h1{
+		margin-top: 60px;
+	}
+}
+
+@media screen and (min-width: 768px){
+	.Registrate{
+		width: 60%;
+		height: 550px;
+	}
+
+	.Registrate h1{
+		margin-top: 70px;
+	}
+}
+
+@media screen and (min-width: 920px){
+	.Registrate{
+		width: 40%;
+	}
+}

@@ -1,0 +1,78 @@
+@import url(fontello.css);
+@import url(menu.css);
+@import url(slider.css);
+@import url(venta.css);
+@import url(popup.css);
+@import url(formulario.css);
+@import url(popup-venta.css);
+@import url(Slider1.css);
+
+.articulos{
+	max-width: 1800px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-flow: row wrap;
+}
+
+.game{
+	flex: 25%;
+	max-width: 350px;
+	padding: 10px;
+	height: 910px;
+	box-sizing: border-box;
+}
+
+.game img{
+	width: 200px;
+	height: 400px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.game h2{
+	text-align: center;
+	color: #ecf0f1;
+	border-bottom: 5px solid gold;
+}
+
+.game ul{
+	margin: 20px;
+	text-align: center;
+}
+
+.gameT{
+	background: black;
+	padding: 30px 20px;
+	font-family: "montserrat", sans-serif;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 0 10px #00000070;
+	color: white;
+	text-align: justify;
+	height: 825px;
+}
+
+footer{
+	background: rgb(0, 0, 0);
+	color: white;
+	padding: 10px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 25px;
+}
+
+footer .social [class^="icon-"]{
+	display: inline-block;
+	color: #e1b12c;
+	text-decoration: none;
+	font-size: 40px;
+	padding: 10px;
+}
+
+.social [class^="icon-"]:hover{
+	color: #BE2623;
+	transition: all 0.4s;
+}
